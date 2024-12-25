@@ -1,0 +1,371 @@
+INFO 2024-12-22 20:59:49,827 views Received GET request for WorkerList with search term: None
+INFO 2024-12-22 20:59:49,827 views All workers retrieved
+INFO 2024-12-22 21:00:01,078 views Received GET request for WorkerList with search term: None
+INFO 2024-12-22 21:00:01,078 views All workers retrieved
+INFO 2024-12-22 21:00:19,197 views Received GET request for WorkerDetail with ID: 11
+WARNING 2024-12-22 21:00:19,428 views Worker with ID 11 not found
+INFO 2024-12-22 21:04:36,672 views Received GET request for WorkerDetail with ID: 11
+WARNING 2024-12-22 21:04:36,765 views Worker with ID 11 not found
+INFO 2024-12-22 21:06:11,563 views Received GET request for WorkerDetail with ID: 11
+WARNING 2024-12-22 21:06:11,778 views Worker with ID 11 not found
+INFO 2024-12-22 21:07:59,454 views Received GET request for WorkerDetail with ID: 1
+INFO 2024-12-22 21:07:59,554 views Worker details retrieved for ID: 1
+INFO 2024-12-22 21:15:11,131 views Received GET request for WorkerDetail with ID: 1
+INFO 2024-12-22 21:15:11,245 views Worker details retrieved for ID: 1
+INFO 2024-12-22 21:15:30,273 views Received GET request for WorkerDetail with ID: 2
+INFO 2024-12-22 21:15:30,372 views Worker details retrieved for ID: 2
+INFO 2024-12-22 21:16:06,728 views Received POST request to create a new worker with data: {'na': 'sravan', 'email': 'sravan@gmail.com', 'role': 't1'}
+ERROR 2024-12-22 21:16:06,730 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field is required.', code='required')]}
+INFO 2024-12-22 21:32:17,306 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-22 21:32:17,307 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-22 21:32:17,311 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-22 21:32:17,314 views Worker created with ID: 5
+INFO 2024-12-22 21:32:17,317 views Received DELETE request for worker with ID: 6
+INFO 2024-12-22 21:32:17,319 views Worker with ID 6 deleted successfully
+INFO 2024-12-22 21:32:17,324 views Received GET request for WorkerList with search term: None
+INFO 2024-12-22 21:32:17,324 views All workers retrieved
+INFO 2024-12-22 21:32:17,329 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-22 21:32:17,330 views Worker with ID 88 not found
+INFO 2024-12-22 21:32:17,333 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-22 21:32:17,337 views Worker details retrieved for ID: 12
+INFO 2024-12-22 21:32:17,341 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-22 21:32:17,343 views Worker with ID 15 partially updated
+INFO 2024-12-22 21:32:17,347 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-22 21:32:17,347 views Workers retrieved with search term: prasanna
+INFO 2024-12-22 21:32:17,353 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-22 21:32:17,356 views Worker with ID 99 not found for update
+INFO 2024-12-22 21:32:17,360 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-22 21:32:17,363 views Worker with ID 20 updated successfully
+INFO 2024-12-23 17:25:02,604 views Received GET request for WorkerList with search term: None
+INFO 2024-12-23 17:25:02,605 views All workers retrieved
+INFO 2024-12-23 17:30:08,731 views Received GET request for WorkerList with search term: None
+INFO 2024-12-23 17:30:08,731 views All workers retrieved
+INFO 2024-12-23 17:31:09,610 views Received GET request for WorkerList with search term: None
+INFO 2024-12-23 17:31:09,611 views All workers retrieved
+INFO 2024-12-24 17:56:58,689 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 17:56:58,692 views All workers retrieved
+INFO 2024-12-24 17:57:19,422 views Received GET request for WorkerDetail with ID: 1
+INFO 2024-12-24 17:57:19,531 views Worker details retrieved for ID: 1
+INFO 2024-12-24 17:57:29,900 views Received GET request for WorkerDetail with ID: 11
+WARNING 2024-12-24 17:57:30,111 views Worker not found ID: 11
+INFO 2024-12-24 17:58:20,192 views Received POST request to create a new worker with data: {'email': 'user@example.com', 'role': 'string'}
+ERROR 2024-12-24 17:58:20,194 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field is required.', code='required')]}
+INFO 2024-12-24 17:59:43,319 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 17:59:43,319 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 17:59:43,338 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 17:59:43,340 views Worker created with ID: 5
+INFO 2024-12-24 17:59:43,349 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 17:59:43,351 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 17:59:43,355 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 17:59:43,356 views All workers retrieved
+INFO 2024-12-24 17:59:43,358 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 17:59:43,362 views Worker not found ID: 88
+INFO 2024-12-24 17:59:43,368 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 17:59:43,371 views Worker details retrieved for ID: 12
+INFO 2024-12-24 17:59:43,373 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 17:59:43,378 views Worker with ID 15 partially updated
+INFO 2024-12-24 17:59:43,383 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 17:59:43,384 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 17:59:43,390 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 17:59:43,391 views Worker not found ID: 99
+INFO 2024-12-24 17:59:43,395 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 17:59:43,399 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:07:14,934 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:07:14,935 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:07:14,939 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:07:14,941 views Worker created with ID: 5
+INFO 2024-12-24 18:07:14,944 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:07:14,946 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:07:14,948 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:07:14,948 views All workers retrieved
+INFO 2024-12-24 18:07:14,951 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:07:14,952 views Worker not found ID: 88
+INFO 2024-12-24 18:07:14,955 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:07:14,955 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:07:14,958 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:07:14,959 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:07:14,961 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:07:14,962 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:07:14,965 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:07:14,966 views Worker not found ID: 99
+INFO 2024-12-24 18:07:14,971 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:07:14,974 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:07:33,093 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:07:33,094 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:07:33,098 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:07:33,102 views Worker created with ID: 5
+INFO 2024-12-24 18:07:33,107 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:07:33,108 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:07:33,111 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:07:33,111 views All workers retrieved
+INFO 2024-12-24 18:07:33,114 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:07:33,115 views Worker not found ID: 88
+INFO 2024-12-24 18:07:33,119 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:07:33,121 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:07:33,126 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:07:33,128 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:07:33,131 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:07:33,131 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:07:33,138 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:07:33,140 views Worker not found ID: 99
+INFO 2024-12-24 18:07:33,142 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:07:33,144 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:17:00,860 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:17:00,861 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:17:00,864 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:17:00,868 views Worker created with ID: 5
+INFO 2024-12-24 18:17:00,873 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:17:00,874 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:17:00,878 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:17:00,878 views All workers retrieved
+INFO 2024-12-24 18:17:00,883 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:17:00,885 views Worker not found ID: 88
+INFO 2024-12-24 18:17:00,889 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:17:00,890 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:17:00,893 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:17:00,895 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:17:00,899 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:17:00,900 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:17:00,906 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:17:00,908 views Worker not found ID: 99
+INFO 2024-12-24 18:17:00,911 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:17:00,913 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:26:13,855 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:26:13,856 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:26:13,860 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:26:13,862 views Worker created with ID: 5
+INFO 2024-12-24 18:26:13,865 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:26:13,866 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:26:13,869 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:26:13,870 views All workers retrieved
+INFO 2024-12-24 18:26:13,873 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:26:13,874 views Worker not found ID: 88
+INFO 2024-12-24 18:26:13,878 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:26:13,880 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:26:13,884 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:26:13,889 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:26:13,894 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:26:13,894 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:26:13,901 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:26:13,903 views Worker not found ID: 99
+INFO 2024-12-24 18:26:13,907 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:26:13,909 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:34:39,807 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:34:39,808 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:34:39,811 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:34:39,814 views Worker created with ID: 5
+INFO 2024-12-24 18:34:39,818 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:34:39,820 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:34:39,823 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:34:39,823 views All workers retrieved
+INFO 2024-12-24 18:34:39,827 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:34:39,828 views Worker not found ID: 88
+INFO 2024-12-24 18:34:39,831 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:34:39,832 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:34:39,835 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:34:39,837 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:34:39,841 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:34:39,842 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:34:39,849 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:34:39,852 views Worker not found ID: 99
+INFO 2024-12-24 18:34:39,860 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:34:39,862 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:36:05,532 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:36:05,533 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:36:05,538 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:36:05,544 views Worker created with ID: 5
+INFO 2024-12-24 18:36:05,549 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:36:05,552 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:36:05,558 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:36:05,559 views All workers retrieved
+INFO 2024-12-24 18:36:05,568 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:36:05,570 views Worker not found ID: 88
+INFO 2024-12-24 18:36:05,580 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:36:05,582 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:36:05,591 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:36:05,596 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:36:05,604 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:36:05,605 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:36:05,616 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:36:05,619 views Worker not found ID: 99
+INFO 2024-12-24 18:36:05,629 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:36:05,633 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:44:44,984 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:44:44,986 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:44:44,993 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:44:44,998 views Worker created with ID: 5
+INFO 2024-12-24 18:44:45,004 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:44:45,007 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:44:45,011 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:44:45,012 views All workers retrieved
+INFO 2024-12-24 18:44:45,022 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:44:45,025 views Worker not found ID: 88
+INFO 2024-12-24 18:44:45,031 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:44:45,032 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:44:45,040 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:44:45,044 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:44:45,050 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:44:45,051 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:44:45,062 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:44:45,064 views Worker not found ID: 99
+INFO 2024-12-24 18:44:45,069 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:44:45,075 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:48:25,269 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:48:25,270 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:48:25,275 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:48:25,279 views Worker created with ID: 5
+INFO 2024-12-24 18:48:25,282 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:48:25,285 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:48:25,288 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:48:25,289 views All workers retrieved
+INFO 2024-12-24 18:48:25,296 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:48:25,298 views Worker not found ID: 88
+INFO 2024-12-24 18:48:25,303 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:48:25,304 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:48:25,309 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:48:25,313 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:48:25,318 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:48:25,319 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:48:25,325 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:48:25,327 views Worker not found ID: 99
+INFO 2024-12-24 18:48:25,332 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:48:25,334 views Worker with ID 20 updated successfully
+INFO 2024-12-24 18:49:59,663 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 18:49:59,664 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 18:49:59,669 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 18:49:59,673 views Worker created with ID: 5
+INFO 2024-12-24 18:49:59,678 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 18:49:59,681 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 18:49:59,684 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 18:49:59,685 views All workers retrieved
+INFO 2024-12-24 18:49:59,689 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 18:49:59,691 views Worker not found ID: 88
+INFO 2024-12-24 18:49:59,695 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 18:49:59,697 views Worker details retrieved for ID: 12
+INFO 2024-12-24 18:49:59,703 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 18:49:59,705 views Worker with ID 15 partially updated
+INFO 2024-12-24 18:49:59,710 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 18:49:59,710 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 18:49:59,718 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 18:49:59,719 views Worker not found ID: 99
+INFO 2024-12-24 18:49:59,723 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 18:49:59,726 views Worker with ID 20 updated successfully
+INFO 2024-12-24 19:22:08,414 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 19:22:08,415 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 19:22:08,419 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 19:22:08,422 views Worker created with ID: 5
+INFO 2024-12-24 19:22:08,428 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 19:22:08,431 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 19:22:08,434 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 19:22:08,435 views All workers retrieved
+INFO 2024-12-24 19:22:08,439 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 19:22:08,441 views Worker not found ID: 88
+INFO 2024-12-24 19:22:08,445 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 19:22:08,448 views Worker details retrieved for ID: 12
+INFO 2024-12-24 19:22:08,454 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 19:22:08,456 views Worker with ID 15 partially updated
+INFO 2024-12-24 19:22:08,461 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 19:22:08,461 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 19:22:08,470 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 19:22:08,472 views Worker not found ID: 99
+INFO 2024-12-24 19:22:08,477 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 19:22:08,480 views Worker with ID 20 updated successfully
+INFO 2024-12-24 19:23:10,607 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 19:23:10,609 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 19:23:10,613 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 19:23:10,618 views Worker created with ID: 5
+INFO 2024-12-24 19:23:10,623 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 19:23:10,626 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 19:23:10,631 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 19:23:10,632 views All workers retrieved
+INFO 2024-12-24 19:23:10,637 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 19:23:10,639 views Worker not found ID: 88
+INFO 2024-12-24 19:23:10,644 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 19:23:10,646 views Worker details retrieved for ID: 12
+INFO 2024-12-24 19:23:10,654 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 19:23:10,658 views Worker with ID 15 partially updated
+INFO 2024-12-24 19:23:10,663 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 19:23:10,664 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 19:23:10,671 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 19:23:10,673 views Worker not found ID: 99
+INFO 2024-12-24 19:23:10,679 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 19:23:10,684 views Worker with ID 20 updated successfully
+INFO 2024-12-24 19:32:20,242 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 19:32:20,245 views All workers retrieved
+INFO 2024-12-24 21:11:36,847 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-24 21:11:36,848 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-24 21:11:36,854 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-24 21:11:36,859 views Worker created with ID: 5
+INFO 2024-12-24 21:11:36,862 views Received DELETE request for worker with ID: 6
+INFO 2024-12-24 21:11:36,864 views Worker with ID 6 deleted successfully
+INFO 2024-12-24 21:11:36,867 views Received GET request for WorkerList with search term: None
+INFO 2024-12-24 21:11:36,868 views All workers retrieved
+INFO 2024-12-24 21:11:36,874 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-24 21:11:36,875 views Worker not found ID: 88
+INFO 2024-12-24 21:11:36,879 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-24 21:11:36,880 views Worker details retrieved for ID: 12
+INFO 2024-12-24 21:11:36,883 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-24 21:11:36,886 views Worker with ID 15 partially updated
+INFO 2024-12-24 21:11:36,891 views Received GET request for WorkerList with search term: prasanna
+INFO 2024-12-24 21:11:36,892 views Workers retrieved with search term: prasanna
+INFO 2024-12-24 21:11:36,897 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-24 21:11:36,898 views Worker not found ID: 99
+INFO 2024-12-24 21:11:36,901 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-24 21:11:36,905 views Worker with ID 20 updated successfully
+INFO 2024-12-25 15:13:17,853 views Received GET request for WorkerList with search term: None
+INFO 2024-12-25 15:13:17,855 views All workers retrieved
+INFO 2024-12-25 15:13:27,369 views Received GET request for WorkerList with search term: None
+INFO 2024-12-25 15:13:27,369 views All workers retrieved
+INFO 2024-12-25 15:14:12,341 views Received GET request for WorkerList with search term: None
+INFO 2024-12-25 15:14:12,342 views All workers retrieved
+INFO 2024-12-25 15:25:38,395 views Received GET request for WorkerList with search term: None
+INFO 2024-12-25 15:25:38,396 views All workers retrieved
+INFO 2024-12-25 15:27:20,659 views Received GET request for WorkerList with search term: Dev
+INFO 2024-12-25 15:27:20,660 views Workers retrieved with search term: Dev
+INFO 2024-12-25 15:27:42,907 views Received GET request for WorkerList with search term: palani
+INFO 2024-12-25 15:27:42,907 views Workers retrieved with search term: palani
+INFO 2024-12-25 15:28:41,128 views Received GET request for WorkerList with search term: aravinth
+INFO 2024-12-25 15:28:41,129 views Workers retrieved with search term: aravinth
+INFO 2024-12-25 15:30:37,128 views Received GET request for WorkerList with search term: dev
+INFO 2024-12-25 15:30:37,128 views Workers retrieved with search term: dev
+INFO 2024-12-25 15:34:00,781 views Query Params Received: <QueryDict: {'search': ['dev']}>
+INFO 2024-12-25 15:34:00,782 views Search Term: dev
+INFO 2024-12-25 15:34:00,884 views Workers filtered with search term 'dev': <QuerySet []>
+INFO 2024-12-25 15:34:32,388 views Query Params Received: <QueryDict: {'search': ['bharadwaj']}>
+INFO 2024-12-25 15:34:32,388 views Search Term: bharadwaj
+INFO 2024-12-25 15:34:32,599 views Workers filtered with search term 'bharadwaj': <QuerySet [<Worker: bharadwaj>]>
+INFO 2024-12-25 15:35:21,378 views Query Params Received: <QueryDict: {'search': ['']}>
+INFO 2024-12-25 15:35:21,379 views Search Term: 
+INFO 2024-12-25 15:35:21,379 views Retrieved all workers
+INFO 2024-12-25 15:35:32,192 views Query Params Received: <QueryDict: {'search': ['']}>
+INFO 2024-12-25 15:35:32,192 views Search Term: 
+INFO 2024-12-25 15:35:32,193 views Retrieved all workers
+INFO 2024-12-25 15:38:32,094 views Query Params Received: <QueryDict: {'search': ['pandi']}>
+INFO 2024-12-25 15:38:32,095 views Search Term: pandi
+INFO 2024-12-25 15:38:32,325 views Workers filtered with search term 'pandi': <QuerySet [<Worker: pandi>]>
+INFO 2024-12-25 15:39:10,613 views Received GET request for WorkerDetail with ID: 1
+INFO 2024-12-25 15:39:10,722 views Worker details retrieved for ID: 1
+INFO 2024-12-25 15:39:27,071 views Received GET request for WorkerDetail with ID: 13
+WARNING 2024-12-25 15:39:27,170 views Worker not found ID: 13
+INFO 2024-12-25 15:40:05,618 views Received POST request to create a new worker with data: {'name': '', 'email': '', 'role': ''}
+ERROR 2024-12-25 15:40:05,619 views Failed to create worker. Errors: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')], 'email': [ErrorDetail(string='This field may not be blank.', code='blank')], 'role': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+INFO 2024-12-25 15:40:05,625 views Received POST request to create a new worker with data: {'name': 'venkatesh', 'email': 'venkatesh@gmail.com', 'role': 'Manager'}
+INFO 2024-12-25 15:40:05,628 views Worker created with ID: 5
+INFO 2024-12-25 15:40:05,631 views Received DELETE request for worker with ID: 6
+INFO 2024-12-25 15:40:05,634 views Worker with ID 6 deleted successfully
+INFO 2024-12-25 15:40:05,638 views Query Params Received: <QueryDict: {'role': ['Developer']}>
+INFO 2024-12-25 15:40:05,639 views Search Term: None
+INFO 2024-12-25 15:40:05,640 views Retrieved all workers
+INFO 2024-12-25 15:40:05,647 views Received GET request for WorkerDetail with ID: 88
+WARNING 2024-12-25 15:40:05,648 views Worker not found ID: 88
+INFO 2024-12-25 15:40:05,651 views Received GET request for WorkerDetail with ID: 12
+INFO 2024-12-25 15:40:05,652 views Worker details retrieved for ID: 12
+INFO 2024-12-25 15:40:05,656 views Received PATCH request for partial update of worker with ID: 15 and data: {'role': 'Lead Developer'}
+INFO 2024-12-25 15:40:05,659 views Worker with ID 15 partially updated
+INFO 2024-12-25 15:40:05,664 views Query Params Received: <QueryDict: {'search': ['prasanna']}>
+INFO 2024-12-25 15:40:05,664 views Search Term: prasanna
+INFO 2024-12-25 15:40:05,666 views Workers filtered with search term 'prasanna': <QuerySet [<Worker: prasanna>]>
+INFO 2024-12-25 15:40:05,671 views Received PUT request to update worker with ID: 99 and data: {'name': 'kamal', 'email': 'kamal@gmailcom', 'role': 'Manager'}
+WARNING 2024-12-25 15:40:05,672 views Worker not found ID: 99
+INFO 2024-12-25 15:40:05,676 views Received PUT request to update worker with ID: 20 and data: {'name': 'vimal raj', 'email': 'vimalraj@gmail.com', 'role': 'Developer'}
+INFO 2024-12-25 15:40:05,678 views Worker with ID 20 updated successfully
